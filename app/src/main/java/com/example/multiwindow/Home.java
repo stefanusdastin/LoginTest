@@ -5,27 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button
+import android.widget.Button;
 
-public class NewActivity extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new);
+        setContentView(R.layout.activity_home);
 
-        Button btnBerita = findViewById(R.id.btn_berita);
         Button btnProfile = findViewById(R.id.btn_profile);
-        Button btnExit = findViewById(R.id.btn_exit);
 
-        btnBerita.setOnClickListener(new View.OnClickListener(){
+        btnProfile.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                startActivity(new Intent(NewActivity.this, ));
+                startActivity(new Intent(Home.this, Profile.class));
             }
-        }
-
-        );
+        });
         }
     }
-}

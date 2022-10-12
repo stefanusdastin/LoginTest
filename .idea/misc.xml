@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/MultiWindow/app/src/main/res/layout/activity_main.xml" value="0.2936802973977695" />
+        <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/MultiWindow/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/MultiWindow/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/MultiWindow/app/src/main/res/layout/activity_new.xml" value="0.25" />
+        <entry key="..\:/xampp/htdocs/rsm/PWPB/THURSDAY MOBILE/MultiWindow/app/src/main/res/layout/activity_profile.xml" value="0.33" />
       </map>
     </option>
   </component>
